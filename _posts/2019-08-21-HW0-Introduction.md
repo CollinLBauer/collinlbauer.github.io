@@ -4,11 +4,14 @@ title: "HW0: Introduction"
 date: 2019-08-21
 ---
 
-      My name is Isabel Lally.  I am originally from Long Beach, CA but now live in Ladson, SC.  
-    I am majoring in computer science at College of Charleston and am planning on graduating 
-    May 2021.  After graduation, I would like to work either in bioinformatics or at an aerospace 
-    company.  On the weekends, I work as a vet assistant at Northwoods Veterinary Clinic.  Over 
-    the summer, I had an internship at MUSC working in their Biomedical Informatics Center.  In 
-    my spare time, I like to go horseback riding, go to the beach, read, and hang out with my cats.  
-    This blog is mostly going to include homework assignments and projects I'm working on related 
-    to computer science, in and out of school, but might evolve into something more!
+      Hello! My name is Collin Bauer.  I am a senior Computer Science major at
+    the College of Charleston and a tutor at the Center for Student Learning.
+    I am originally from the town of Harwich, MA, which is at the heart of the
+    bustling summer destination that is Cape Cod.  Harwich is unique because its
+    population is twice as large during tourist season, but very quiet in the winter.  When it got quiet, I spent much of my free time playing video games and learning how they were made, which is how I became interested in Computer
+    Science.
+
+      This blog has been created for CSCI 362 at the College of Charleston.
+    After the class is over, I will very likely pivot the blog for personal use.
+    Heck, I already have some projects in the works on GitHub!  This blog is a work in progress, and the quality of it should improve as I begin to
+    understand the underlying technologies.
