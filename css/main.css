@@ -27,8 +27,13 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
+h1 {
+    font-size: 1.3em;
+    margin: 0.5em auto 1em
+}
+
 p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1.4em;
     color: #333;
 }
@@ -40,7 +45,7 @@ footer {
 
 ul { 
     margin: 0px auto 20px; 
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 ul.posts li {
     list-style: none;
@@ -48,5 +53,5 @@ ul.posts li {
 
 ol {
     margin: 0px auto 20px;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
