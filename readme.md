@@ -1,1 +1,0 @@
-A website for my blog. Details will be added as time goes on.
