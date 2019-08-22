@@ -38,14 +38,15 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul { 
+    margin: 0px auto 20px; 
     font-size: 1.5em;
 }
 ul.posts li {
     list-style: none;
 }
 
-ol.posts {
-    margin: 0px;
+ol {
+    margin: 0px auto 20px;
+    font-size: 1.5em;
 }
