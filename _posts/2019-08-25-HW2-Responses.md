@@ -62,7 +62,7 @@ refer to these articles in the future, so I have a reference on how to tackle
 
 
 
-###Articles
+### Articles
 
 Brooks, “No Silver Bullet Essence and Accidents of Software Engineering,” in Computer, vol. 20, no. 4, pp. 10-19, April 1987. doi: 10.1109/MC.1987.1663532
 
