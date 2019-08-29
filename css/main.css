@@ -27,9 +27,20 @@ h1 {
     font-size: 3em;
 }
 
+h2 {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 2em;
+}
+
 h3 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 1.3em;
+    margin: 0.5em auto 1em
+}
+
+h4 {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1.2em;
     margin: 0.5em auto 1em
 }
 
