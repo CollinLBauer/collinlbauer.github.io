@@ -1,18 +1,21 @@
-#container {
+body {
     background-color: #f4f4c8;
+}
+
+#container {    /* Contains the #nav, #content and #footer containers */
     width: 90%;
     position: relative;
     min-height: 100vh;
 }
 
-#nav {
+#nav {          /* navigation bar at the top of the page */
     position: relative;
     width: 100%;
     border-bottom: 1px solid #d5d5d5;
     padding: 10px 2%;
 }
 
-#main {
+#content {      /* content container */
     min-height: 100%;
     margin: 60px auto;
     width: 70%;
@@ -20,7 +23,7 @@
     padding-bottom: 60px; /* height of footer */
 }
 
-#footer {
+#footer {       /* footer at the borrom of the page */
     position: absolute;
     bottom: 0;
     width: 100%;
