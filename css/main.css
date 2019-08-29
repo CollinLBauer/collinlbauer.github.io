@@ -55,7 +55,13 @@ p {
 p.meta {
     color: #666;
     font-size: 1em;
+    font-style: italic;
     margin: 0em;
+}
+
+div.post {
+    border-top: 1px;
+    border-top-color: #111;
 }
 
 footer {
