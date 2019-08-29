@@ -1,5 +1,5 @@
 body {
-    background-color: #f4fac8;
+    background-color: #f4f4c8;
     margin: 60px auto;
     width: 70%;
 }
@@ -36,7 +36,7 @@ h2 {
 h3 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 1.3em;
-    margin: 0.5em auto 1em;
+    margin: 1em auto 0.5em auto;
 }
 
 h4 {
@@ -59,14 +59,20 @@ footer {
 }
 
 ul { 
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     margin: 0px auto 20px; 
     font-size: 1.2em;
 }
-ul.posts li {
+ul li {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     list-style: none;
 }
 
 ol {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     margin: 0px auto 20px;
     font-size: 1.2em;
+}
+ol li {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
