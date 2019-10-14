@@ -1,3 +1,4 @@
+/* All main related CSS below */
 body {
     background-color: #f4f4c8;
 }
@@ -33,6 +34,13 @@ body {
     font-size: .8em;
 }
 
+p.meta {
+    color: #666;
+    font-size: 1em;
+    font-style: italic;
+    margin: 0em;
+}
+
 .nav-list {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -45,7 +53,6 @@ body {
     margin-right: 20px;
 }
 
-
 a {
     text-decoration: none;
     color: #AA9;
@@ -53,62 +60,50 @@ a {
 a:hover {
     text-decoration: underline;
 }
+/* end main */
 
-h1 {
+
+/* All post related CSS below */
+div.post {
+    border-top: 1px solid #d5d5d5;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+div.post h1 {
     font-size: 3em;
 }
 
-h2 {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+div.post h2 {
     font-size: 2em;
 }
 
-h3 {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+div.post h3 {
     font-size: 1.3em;
     margin: 1em auto 0.5em auto;
 }
 
-h4 {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+div.post h4 {
     font-size: 1.2em;
+    text-decoration: none;
     margin: 0.5em auto 0.5em auto;
 }
 
-p {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+div.post p {
     font-size: 1.2em;
     line-height: 1.4em;
     color: #333;
-    margin: 0.2em 0em 0.5em 1em;
-}
-p.meta {
-    color: #666;
-    font-size: 1em;
-    font-style: italic;
-    margin: 0em;
+    margin: 0.2em 0em 0.5em 2em;
 }
 
-div.post {
-    border-top: 1px solid #d5d5d5;
-}
-
-ul { 
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+div.post ul { 
     margin: 0px auto 20px; 
     font-size: 1.2em;
-}
-ul li {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     list-style: none;
 }
 
-ol {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+div.post ol {
     margin: 0px auto 20px;
     font-size: 1.2em;
+    list-style: decimal
 }
-ol li {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
+/* end post */
