@@ -53,6 +53,11 @@ p.meta {
     margin-right: 20px;
 }
 
+.posts {
+    font-size: 1.2em;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+}
+
 a {
     text-decoration: none;
     color: #AA9;
@@ -61,6 +66,8 @@ a:hover {
     text-decoration: underline;
 }
 /* end main */
+
+
 
 
 /* All post related CSS below */
@@ -85,6 +92,7 @@ div.post h3 {
 div.post h4 {
     font-size: 1.2em;
     text-decoration: none;
+    font-style: none;
     margin: 0.5em auto 0.5em auto;
 }
 
