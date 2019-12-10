@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HW25: Team Progress II"
+title: "HW25: Team Progress 2"
 date: 2019-12-08
 ---
 
