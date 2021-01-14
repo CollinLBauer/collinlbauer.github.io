@@ -60,7 +60,7 @@ p.meta {
 
 a {
     text-decoration: none;
-    color: #AA9;
+    color: rgb(110, 110, 95);
 }
 a:hover {
     text-decoration: underline;
