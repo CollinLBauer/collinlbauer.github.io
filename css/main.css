@@ -32,6 +32,7 @@ body {
     border-top: 1px solid #d5d5d5;
     padding: 20px 5% 0px;
     font-size: .8em;
+    text-align: center;
 }
 
 p.meta {
@@ -60,7 +61,7 @@ p.meta {
 
 a {
     text-decoration: none;
-    color: rgb(110, 110, 95);
+    color: #27554C;
 }
 a:hover {
     text-decoration: underline;
