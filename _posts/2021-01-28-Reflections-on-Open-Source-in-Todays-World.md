@@ -9,9 +9,9 @@ For this blog post we had to look for two articles from [opensource.com](https:/
 
 ### [Program hardware from the Linux command line](https://opensource.com/article/20/9/hardware-command-line)
 
-In this article, an anonymous author under the pseudonym Alan Smithee explains how to code for an Internet of Things (IoT) device by coding for a barebones operating system called RT-Thread. Alan explains how the OS can either run native C code, or code from a command-line shell, both by using the command-line component called FinSH. Throught the article, Alan describes some basic knowledge required for coding to such a device, such as GNU's command-line standards and how the reader should organize such commands and parse them in C.
+In this article, an anonymous author under the pseudonym Alan Smithee explains how to code for an Internet of Things (IoT) device by coding for a barebones operating system called RT-Thread. Alan explains how the OS can either run native C code, or code from a command-line shell, both by using the command-line component called FinSH. Throughout the article, Alan describes some basic knowledge required for coding to such a device, such as GNU's command-line standards and how the reader should organize such commands and parse them in C.
 
-Within this article, the author identifies themself as a developer of FinSH, but offers no other personal information. Given that this was posted on a websiter promoting open source practices, it comes as no surprise that they mention using this tutorial to port common Linux-based applications to RT-Thread. It would seem that they wrote this article to promote their software and encourage developers to deploy it on their devices, but I am very curious why they decided to stay anonymous.
+Within this article, the author identifies themself as a developer of FinSH, but offers no other personal information. Given that this was posted on a websiter promoting open source practices, it comes as no surprise that they mention using this tutorial to port common Linux-based applications to RT-Thread. It seems wrote this article to promote their software and encourage developers to deploy it on their devices, but I am very curious why they decided to stay anonymous.
 
 
 ### [Learn Python by creating a video game](https://opensource.com/article/20/10/learn-python-ebook)
