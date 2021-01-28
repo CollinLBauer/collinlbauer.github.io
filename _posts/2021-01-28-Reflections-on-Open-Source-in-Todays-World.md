@@ -6,7 +6,6 @@ date: 2021-01-28
 
 For this blog post we had to look for two articles from [opensource.com](https://opensource.com/) to read and reflect on. Here are my reflections.
 
-<br/>
 
 ### [Program hardware from the Linux command line](https://opensource.com/article/20/9/hardware-command-line)
 
@@ -14,7 +13,6 @@ In this article, an anonymous author under the pseudonym Alan Smithee explains h
 
 Within this article, the author identifies themself as a developer of FinSH, but offers no other personal information. Given that this was posted on a websiter promoting open source practices, it comes as no surprise that they mention using this tutorial to port common Linux-based applications to RT-Thread. It would seem that they wrote this article to promote their software and encourage developers to deploy it on their devices, but I am very curious why they decided to stay anonymous.
 
-<br/>
 
 ### [Learn Python by creating a video game](https://opensource.com/article/20/10/learn-python-ebook)
 
@@ -22,7 +20,6 @@ This article is the first part of what appears to be a series of articles writte
 
 I took a glance at the further articles, and Seth did an excellent job explaining a lot of the concepts deployed. There were some gaps in knowledge that the article doesn't mention; for example, the articles expect the reader to already know how to work in the command line, and the examples were all ran from Bash. However, the article tried to defer to further reading when it thought necessary, such as for setting up a virtual environment for Python.
 
-<br/>
 
 ### Reflections
 
