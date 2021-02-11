@@ -41,6 +41,7 @@ The article specifically mentions Google Firebase, which is a "BaaS" (back end a
 It continues to discuss the many benefits of this serverless paradigm and the unique challenges they create. From my perspective, the benefits are pretty apparent, but the issues were neat to read about. Some potential issues included:
 - testing and debugging: Many aspects of serverless environments cannot be reproduced locally, and must be deployed to actively test
 - performance: Since serverless functions are not always active, they often have to go through a "cold start," which introduces time delays in some instances.
-- Apparently, using serverless technologies requires adopting an "event-driven paradigm." I am unfamiliar with this term, but may do some further research. The article mentions it a lot.
+- Apparently, using serverless technologies requires adopting an "event-driven paradigm." I am unfamiliar with this term, but may do some further research. The article mentions it a lot.  
+  *Edit: The paradigm refers to functions triggering on certain actions or "events", for example, on a button click. I have used this many times, just never heard the term before.*
 
 Seeing as our team is apparently dancing with serverless technologies, it is good to learn a little bit more about the technology. I made sure to share my findings with them as well.
