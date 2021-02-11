@@ -107,7 +107,11 @@ div.post p {
 div.post ul { 
     margin: 0px auto 20px; 
     font-size: 1.2em;
-    list-style: none;
+    list-style: circle inside;
+}
+
+div.post ul li {
+    margin-bottom: 0.25em;
 }
 
 div.post ol {
