@@ -4,16 +4,26 @@ title: Blog Posts
 ---
     <script type="text/javascript" src="/js/blog.js"></script>
 
-    <label for="filter">Filter: </label>
-    <select id="filterList">
-      <option value="none">All Posts</option>
-      <option value="362">Software Engineering</option>
-      <option value="462">Capstone</option>
-      <option value="portfolio">Projects</option>
-      <option value="other">Misc.</option>
-    </select>
-    <br><br>
-    <button onclick="filterList()">Filter</button>
+    <br/><br/>
+    <table id="filterHolder">
+      <tr>
+        <label for="filter">Filter by...</label>
+      </tr>
+      <tr>
+        <td>
+          <select id="filterList">
+            <option value="none">All Posts</option>
+            <option value="462">Capstone</option>
+            <option value="362">Software Engineering</option>
+            <option value="portfolio">Projects</option>
+            <option value="other">Misc.</option>
+          </select>
+        </td>
+        <td>
+          <button id="filterButton" onclick="filterList()">Filter</button>
+        </td>
+      </tr>
+    </table>
 
     <h2>{{ page.title }}</h2>
     <ul class="posts">
