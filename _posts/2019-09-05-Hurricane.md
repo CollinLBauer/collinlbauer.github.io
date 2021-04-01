@@ -2,6 +2,7 @@
 layout: post
 title: "Hurricane"
 date: 2019-09-05
+category: "other"
 ---
 
 Well, it's hurricane season again in Charleston. Hurricane Dorian hit this week. Evacuations started Monday, and anyone who didn't leave likely lost power today, or worse. I am safe, however, and hopefully everyone else else is as well.

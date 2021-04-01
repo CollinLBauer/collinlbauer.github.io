@@ -2,6 +2,7 @@
 layout: post
 title: "HW2: Responses"
 date: 2019-08-25
+category: "362"
 ---
 
 {% comment %} 

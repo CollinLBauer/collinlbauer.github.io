@@ -2,6 +2,7 @@
 layout: post
 title: "Reflections on Open Source in Today's World"
 date: 2021-01-28
+category: "462"
 ---
 
 For this blog post we had to look for two articles from [opensource.com](https://opensource.com/) to read and reflect on. Here are my reflections.

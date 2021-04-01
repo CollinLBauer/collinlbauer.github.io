@@ -2,6 +2,7 @@
 layout: post
 title: "HW0: Introduction"
 date: 2019-08-21
+category: "362"
 ---
 
   Hello! My name is Collin Bauer.  I am a senior Computer Science major at

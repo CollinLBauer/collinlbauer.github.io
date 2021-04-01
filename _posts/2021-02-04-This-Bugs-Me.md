@@ -2,6 +2,7 @@
 layout: post
 title: "This bugs me"
 date: 2021-02-04
+category: "462"
 ---
 
 ### 6.4 - Habitica-Android's  Oldest Bug
