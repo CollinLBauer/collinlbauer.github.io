@@ -1,11 +1,14 @@
 ---
 layout: post
-title: "Stupid or Solid"
+title: "Stupid or Solid?"
 date: 2021-04-04
+edited: 2021-04-05
 category: "462"
 ---
 
 *This was originally assigned for February 18th. I'm playing some catch-up right now.*
+
+<br/>
 
 Currently, when I code, I try to be efficient about it, often to a fault. I want to implement my changes in the most correct way possible for the context it will exist in. But this leads to an issue where I might not know how to approach, or even attempt a problem, because I am too busy optimizing what little code I have. I pretend that my coding habits are not as STUPID as they really are.
 
@@ -87,10 +90,17 @@ All that being said, I do not know that my code is necessarily SOLID either. Whi
 
 So, my coding may not be terrible, but I have a lot to learn. I am hoping that what I am missing today will come with experience tomorrow.
 
-...
-
-*On a personal note, anagrams bug me. Wording those fancy ideas together so they form the word "solid" is cute and all, but the anagrams inside of anagrams are particularly irksome. I already practiced some of these principles despite never hearing them describe in so many words, so reading them the first time made me feel more STUPID than I may actually be. This extends to my role as an instructor and tutor. I find myself having to break down similar concepts for my students and tutees quite frequently, when really, they could have simply been written in easier to digest terms.*
+<br/>
 
 - [From STUPID to SOLID](https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/)
 - [SOLID principles](https://deviq.com/principles/solid)
+
+<br/>
+
+...
+
+<br/>
+
+*On a personal note, anagrams bug me. Wording those fancy ideas together so they form the word "solid" is cute and all, but the anagrams inside of anagrams are particularly irksome. I already practiced some of these principles despite never hearing them describe in so many words, so reading them the first time made me feel more STUPID than I may actually be. This extends to my role as an instructor and tutor. I find myself having to break down similar concepts for my students and tutees quite frequently, when really, they could have simply been written in easier to digest terms.*
+
 
