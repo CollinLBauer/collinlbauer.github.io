@@ -106,7 +106,7 @@ div.post p {
 
 div.post ul { 
     margin: auto auto auto 1em; 
-    font-size: 1.2em;
+    font-size: inherit;
     list-style: circle outside;
 }
 
