@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Release early and often"
+title: "Release Early and Often"
 date: 2021-04-05
 category: "462"
 ---

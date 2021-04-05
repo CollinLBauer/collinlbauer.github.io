@@ -14,6 +14,7 @@ Currently, when I code, I try to be efficient about it, often to a fault. I want
 
 One of the things we talk about in Computer Science is, surprise surprise, how to write better code. There are lots of different ways to improve our coding habits, that, in the context of the following readings, can be classified as either **STUPID**, or **SOLID**. These are both anagrams with the following meanings.
 
+
 ### STUPID
 
 - Singleton
@@ -37,6 +38,7 @@ STUPID code is flawed code. It encompasses pitfalls in a developer's mindset, as
 
 6. Duplicate code segments should always be avoided. If you find yourself repeatedly entering the four lines of code, make a function for that code instead.
 
+
 ### SOLID
 
 - SRP: Single Responsibility Principle
@@ -47,17 +49,17 @@ STUPID code is flawed code. It encompasses pitfalls in a developer's mindset, as
 
 The SOLID principles are a little more fancy, so let me dissect these a bit.
 
-1. **Single Responsibility Principle is the concept that every class should have only one responsibility, and should only have one reason to change.**
+**1. Single Responsibility Principle is the concept that every class should have only one responsibility, and should only have one reason to change.**
 
 For an example, consider an object in 3D Euclidian space. There as several dimensions it could have, depending on the type of shape, size, its location, etc. There are several ways to implement these, especially if talking about complex geometry from modelling software -- but I'll keep my example simple: a rectangular prism, with length, width, and height, and its X, Y, and Z positions in space.
 
 A tightly coupled version of this rectangle would just store all of these as instance variables at the class level, but if we want to satisfy SRP instead, we should break this class down some. A much more loosely coupled version could simply store the length, width, and height dimensions, then either a position or a point object as the location. That position object would then store the X, Y and Z coordinates instead, which is a much more modular design. We could even go a step beyond by generalizing the 3D object to, instead of directly containing dimensions, contain *any* 3D shape as a polymorphic object, which stores its relevant dimensions, and so forth.
 
-2. **The Open/Closed Principle states that software entities should be open for extension, but closed for modification.**
+**2. The Open/Closed Principle states that software entities should be open for extension, but closed for modification.**
 
 This is one of the main points of object oriented programming. Classes are coded for very defined, rigid purposes, which can then be extended by other classes to include more information as needed, like a Student class extending a Person class. Note every person needs a student ID because note very person is a student.
 
-3. **The Liskov Substitution Principle states that "objects in a program should be replaceable with instances of their subtypes without altering the correctness of the program."**
+**3. The Liskov Substitution Principle states that "objects in a program should be replaceable with instances of their subtypes without altering the correctness of the program."**
 
 Fancy. But what do these fancy words mean?
 
@@ -65,11 +67,11 @@ The most layman explanation I can think of is that, to satisfy this principle, a
 
 The example of the square and rectangle given from DevIQ makes sense here, because we assume we can independently set the width and height of any rectangle. However, if we change the width of a square, to enforce its squareness, we must also change its height, which violates this principle.
 
-4. **The Interface Segregation Principle suggests that many small interfaces are better than one giant generalized interface.**
+**4. The Interface Segregation Principle suggests that many small interfaces are better than one giant generalized interface.**
 
 I find myself implementing interfaces quite often these days, but very rarely have I written them, so I have little experience here. What I will say is that, while coding in Java, and especially for Android, I constantly run into classes that implement four or five different interfaces. I have always wondered why, since it makes an already verbose language even less legible, but I guess I have my answer. More interfaces are better.
 
-5. **Dependency Inversion means that high-level modules should not depend on low-level modules; both should depend on abstractions.**
+**5. Dependency Inversion means that high-level modules should not depend on low-level modules; both should depend on abstractions.**
 
 It figures that the most abstract principle is the one about abstraction. I have no idea where to begin with this principle, because I am not sure how to interpret it. It looks like my understanding of this principle is largely linked to my experience with abstraction and interfaces. I assume I will understand this better as I create more of my own interfaces.
 
@@ -92,6 +94,7 @@ So, my coding may not be terrible, but I have a lot to learn. I am hoping that w
 
 <br/>
 
+Sources:
 - [From STUPID to SOLID](https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/)
 - [SOLID principles](https://deviq.com/principles/solid)
 
