@@ -1,4 +1,9 @@
 /* All main related CSS below */
+
+html {
+    font-size:16px;
+  }
+
 body {
     background-color: #ffefde;
 }
@@ -31,15 +36,15 @@ body {
     height: 60px;
     border-top: 1px solid #b6aa9c;
     padding: 20px 5% 0px;
-    font-size: .8em;
+    font-size: .8rem;
     text-align: center;
 }
 
 p.meta {
     color: #666;
-    font-size: 1em;
+    font-size: 1rem;
     font-style: italic;
-    margin: 0em;
+    margin: 0px;
 }
 
 .nav-list {
@@ -55,7 +60,7 @@ p.meta {
 }
 
 .posts {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
 
@@ -78,45 +83,45 @@ div.post {
 }
 
 div.post h1 {
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 div.post h2 {
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 div.post h3 {
-    font-size: 1.3em;
-    margin: 1em auto 0.5em auto;
+    font-size: 1.3rem;
+    margin: 1rem auto 0.5rem auto;
 }
 
 div.post h4 {
-    font-size: 1.15em;
+    font-size: 1.15rem;
     text-decoration: none;
     font-style: none;
-    margin: 0.5em auto 0.5em 1em;
+    margin: 0.5rem auto 0.5rem 1rem;
 }
 
 div.post p {
-    font-size: 1.2em;
-    line-height: 1.4em;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
     color: #333;
-    margin: 0.2em 0em 0.5em 2em;
+    margin: 0.2rem 0rem 0.5rem 2rem;
 }
 
 div.post ul { 
-    margin: auto auto auto 1em; 
-    font-size: inherit;
+    font-size: 1.2rem;
+    margin: auto auto auto 1rem; 
     list-style: circle outside;
 }
 
 div.post ul li {
-    margin-bottom: 0.25em;
+    margin-bottom: 0.25rem;
 }
 
 div.post ol {
     margin: 0px auto 20px;
-    font-size: inherit;
+    font-size: 1.2rem;
     list-style: decimal
 }
 /* end post */
