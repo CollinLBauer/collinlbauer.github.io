@@ -124,4 +124,8 @@ div.post ol {
     font-size: 1.2rem;
     list-style: decimal
 }
+
+div.post img {
+    max-width: 100%;
+}
 /* end post */
