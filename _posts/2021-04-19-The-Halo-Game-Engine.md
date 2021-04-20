@@ -60,7 +60,7 @@ The version of Guerilla that shipped with HEK did come with some drawbacks. Whil
 
 ![wiser than I](https://raw.githubusercontent.com/CollinLBauer/collinlbauer.github.io/master/images/halo/tools_sapien.png)
 
-The final program is **Sapien**, which serves as the scenario and level editor. Sapien allows developers to insert objects directly into the game world via the view port, based off of the tags defined by *Guerilla*. From here, certain properties of these objects can be defined, such as world position and rotation, as well as if it belongs to a certain team, or only spawns for certain game types, et cetera. For singleplayer levels, AI actors may also be inserted and names assigned to them for scripting purposes.
+The final program is **Sapien**, which serves as the scenario and level editor. *Sapien* allows developers to insert objects directly into the game world via the view port, based off of the tags defined by *Guerilla*. From here, certain properties of these objects can be defined, such as world position and rotation, as well as if it belongs to a certain team, or only spawns for certain game types, et cetera. For singleplayer levels, AI actors may also be inserted and names assigned to them for scripting purposes.
 
 Oh, and yes, Halo has its own custom scripting language. I currently do not know much about it or where and how to use it, but for now, just know that it exists. I will probably dedicate an entire post to scripting later down the line.
 
