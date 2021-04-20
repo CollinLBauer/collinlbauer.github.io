@@ -44,7 +44,7 @@ Here's a quick breakdown of what each supplied program does.
 
 ![what a tool](https://raw.githubusercontent.com/CollinLBauer/collinlbauer.github.io/master/images/halo/tools_tool.png)
 
-The first tool is, oddly enough, called *tool*. *Tool* is essentially a massive collection of scripts, allowing developers to transition data from one state to another (like a 3D geometry export to a working map), apply effects and processes to different *tags* (such as generating lightmaps), and plenty of other things. It is incredibly versatile, and even offers useful debug information when things go wrong, such as generating error geometry if it detects something wrong, which can then be reimported and compared to the source model.
+The first tool is, oddly enough, called **tool**. *Tool* is essentially a massive collection of scripts, allowing developers to transition data from one state to another (like a 3D geometry export to a working map), apply effects and processes to different *tags* (such as generating lightmaps), and plenty of other things. It is incredibly versatile, and even offers useful debug information when things go wrong, such as generating error geometry if it detects something wrong, which can then be reimported and compared to the source model.
 
 While *tool* is powerful, it does have flaws. Error geometry is not always useful, lightmaps are often slow and have issues, and there are just things that many modders want to do that it is not capable of. *Tool's* greatest sin is that it tries to do almost everything, and since it is a compiled executable, modders had to pick it apart slowly so they could create more flexible alternatives. More on that later.
 
@@ -52,7 +52,7 @@ While *tool* is powerful, it does have flaws. Error geometry is not always usefu
 
 ![tag warfare](https://raw.githubusercontent.com/CollinLBauer/collinlbauer.github.io/master/images/halo/tools_guerilla.png)
 
-*Guerilla* is essentially the data manager of the kit. It is capable of opening and editing these *tag* files I keep on mentioning, which store data and properties for everything from particle systems, to sounds, to objectives and markers, to the level geometry itself. Almost every field can be edited and added to directly from *Guerilla*. Additionally, developers are able to add and remove references and dependencies between tags. This enables things like changing the type of bullet that a gun fires. One could, for example, make a sniper rifle shoot tank shells if they wanted to. But it has infinitely more uses than that.
+**Guerilla** is essentially the data manager of the kit. It is capable of opening and editing these *tag* files I keep on mentioning, which store data and properties for everything from particle systems, to sounds, to objectives and markers, to the level geometry itself. Almost every field can be edited and added to directly from *Guerilla*. Additionally, developers are able to add and remove references and dependencies between tags. This enables things like changing the type of bullet that a gun fires. One could, for example, make a sniper rifle shoot tank shells if they wanted to. But it has infinitely more uses than that.
 
 The version of Guerilla that shipped with HEK did come with some drawbacks. While it can open and display all data from any tag, some fields are purposefully locked out and uneditable. Part of this is for safety reasons - it would be foolish to edit the level geometry with it, after all - it can sometimes inhibit more complex creations and optimizations.
 
@@ -60,7 +60,7 @@ The version of Guerilla that shipped with HEK did come with some drawbacks. Whil
 
 ![wiser than I](https://raw.githubusercontent.com/CollinLBauer/collinlbauer.github.io/master/images/halo/tools_sapien.png)
 
-The final program is *Sapien*, which serves as the scenario and level editor. Sapien allows developers to insert objects directly into the game world via the view port, based off of the tags defined by *Guerilla*. From here, certain properties of these objects can be defined, such as world position and rotation, as well as if it belongs to a certain team, or only spawns for certain game types, et cetera. For singleplayer levels, AI actors may also be inserted and names assigned to them for scripting purposes.
+The final program is **Sapien**, which serves as the scenario and level editor. Sapien allows developers to insert objects directly into the game world via the view port, based off of the tags defined by *Guerilla*. From here, certain properties of these objects can be defined, such as world position and rotation, as well as if it belongs to a certain team, or only spawns for certain game types, et cetera. For singleplayer levels, AI actors may also be inserted and names assigned to them for scripting purposes.
 
 Oh, and yes, Halo has its own custom scripting language. I currently do not know much about it or where and how to use it, but for now, just know that it exists. I will probably dedicate an entire post to scripting later down the line.
 
