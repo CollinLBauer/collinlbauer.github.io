@@ -73,7 +73,7 @@ Over the years, a number of derivative programs have been created that either su
 
 ## Halo 2 and beyond
 
-As Bungie developed further Halo titles, they took their initial engine and refined it over time, making changes to things like physics, lighting, adding support for new concepts such as dual wielding weapons, new times of grenades and equipment, more advanced scripting, and so on. However, for the longest time there was no official way for an end user to access these tools and create custom content for newer Halo titles. 
+As Bungie developed further Halo titles, they took their initial engine and refined it over time, making changes to things like physics, lighting, adding support for new concepts such as dual wielding weapons, new types of grenades and equipment, more advanced scripting, and so on. However, for the longest time there was no official way for an end user to access these tools and create custom content for newer Halo titles. 
 
 The only notable exception to this is the Forge game mode, introduced in Halo 3. It allowed players to create variants of existing maps my changing the layout of scenery, weapons, vehicles, objective markers. In many ways, Forge essentially served as a "Sapien-lite", since it shared a lot of the same functionality, but with a much simpler toolset and a friendlier user interface.
 
