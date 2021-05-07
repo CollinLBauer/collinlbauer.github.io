@@ -111,7 +111,7 @@ div.post p {
 
 div.post ul { 
     font-size: 1.2rem;
-    margin: auto auto auto 1rem; 
+    margin: auto auto auto 1rem;
     list-style: circle outside;
 }
 
@@ -120,9 +120,21 @@ div.post ul li {
 }
 
 div.post ol {
-    margin: 0px auto 20px;
+    margin: auto auto auto 1rem;
     font-size: 1.2rem;
     list-style: decimal
+}
+
+div.post table {
+    margin: 0.2rem 0rem 0.5rem 2rem;
+}
+
+div.post table td {
+    padding: 0.5rem 1rem 0rem 1rem;
+}
+
+div.post table th {
+    padding: 0.5rem 1rem 0rem 1rem;
 }
 
 div.post img {
