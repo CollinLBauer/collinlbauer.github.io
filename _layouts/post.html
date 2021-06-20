@@ -17,10 +17,14 @@ layout: default
   <table id="prev_next">
     <tr>
       <td id="pn_previous">
+        {{% if page.prev_url %}}
         ← <a href="{{ page.prev }}">{{ page.prev_title }}</a>
+        {{% endif %}}
       </td>
       <td id="pn_next">
+        {{% if page.next_url %}}
         <a href="{{ page.next }}">{{ page.next_title }}</a> →
+        {{% endif %}}
       </td>
     </tr>
   </table>

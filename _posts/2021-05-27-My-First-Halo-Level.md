@@ -3,7 +3,7 @@ layout: post
 title: "Modding Halo: My First Level"
 date: 2021-05-27
 category: "portfolio"
-prev: "/portfolio/2021/04/19/The-Halo-Game-Engine.html"
+prev_url: "/portfolio/2021/04/19/The-Halo-Game-Engine.html"
 prev_title: "The Halo Game Engine"
 ---
 

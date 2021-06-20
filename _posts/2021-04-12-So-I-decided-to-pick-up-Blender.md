@@ -3,7 +3,7 @@ layout: post
 title: "So I decided to pick up Blender"
 date: 2021-04-12
 category: "portfolio"
-next: "/portfolio/2021/04/19/The-Halo-Game-Engine.html"
+next_url: "/portfolio/2021/04/19/The-Halo-Game-Engine.html"
 next_title: "The Halo Game Engine"
 ---
 

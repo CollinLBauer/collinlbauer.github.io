@@ -3,9 +3,9 @@ layout: post
 title: "Modding Halo: The Game Engine"
 date: 2021-04-19
 category: "portfolio"
-prev: "/portfolio/2021/04/12/So-I-decided-to-pick-up-Blender.html"
+prev_url: "/portfolio/2021/04/12/So-I-decided-to-pick-up-Blender.html"
 prev_title: "So I decided to pick up Blender"
-next: "/portfolio/2021/05/27/My-First-Halo-Level.html"
+next_url: "/portfolio/2021/05/27/My-First-Halo-Level.html"
 next_title: "My First Halo Level"
 ---
 
