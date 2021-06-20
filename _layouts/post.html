@@ -13,4 +13,17 @@ layout: default
   <br/>
   {{ content }}
   <br/>
+
+  <table id="prev_next">
+    <tr>
+      <td id="pn_previous">
+        ← <a href="{{ page.prev }}">{{ page.prev_title }}</a>
+      </td>
+      <td id="pn_next">
+        <a href="{{ page.next }}">{{ page.next_title }}</a> →
+      </td>
+    </tr>
+  </table>
+
+  
 </div>

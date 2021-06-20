@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "Modding Halo: So I decided to pick up Blender"
+title: "So I decided to pick up Blender"
 date: 2021-04-12
 category: "portfolio"
+next: "/portfolio/2021/04/19/The-Halo-Game-Engine.html"
+next_title: "The Halo Game Engine"
 ---
 
 For a long time now, I have wanted to start a new project - something I can enjoy and be proud of once finished. I have tried a number of things before, including web apps, plugins for some games, contributions to open source projects - but outside of school work, nothing ever really stuck, until today. Over this next Summer, I will be researching and putting effort into learning how to model, texture, animate, and script for one of my favorite game franchises. At the end, I hope to have created and published some very fun experiences for others to enjoy.

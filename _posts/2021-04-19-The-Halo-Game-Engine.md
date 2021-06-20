@@ -3,6 +3,10 @@ layout: post
 title: "Modding Halo: The Game Engine"
 date: 2021-04-19
 category: "portfolio"
+prev: "/portfolio/2021/04/12/So-I-decided-to-pick-up-Blender.html"
+prev_title: "So I decided to pick up Blender"
+next: "/portfolio/2021/05/27/My-First-Halo-Level.html"
+next_title: "My First Halo Level"
 ---
 
 At the end of my last post, I talked about how I picked up Blender so I could get into modding. *Modding* is the popular term for modifying an already released game by making changes or adding content, such as code, assets, etc., often through unofficial means. Modding is sometimes considered controversial as it is often done to circumvent either security or digital rights management software. But it is also an amazing source of expression for many video game communities, with Minecraft and Skyrim being two notable examples. Mods often extend the lifetime of a video game and its community by many, many years.
