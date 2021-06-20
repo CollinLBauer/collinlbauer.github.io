@@ -42,4 +42,4 @@ function onStart() {
     }
 }
 
-onStart()
+window.onload = onStart;
