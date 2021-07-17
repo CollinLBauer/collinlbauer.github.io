@@ -27,7 +27,7 @@ Blog has been quiet, hasn't it? This is mainly due to the [CE3 Season 2 Map Cont
 
 <br/>
 
-> Blamite Mines is a small covenant-themed map, split down the middle with a blamite quarry on one side and a refinery on the other. Most action takes place around the large pit in the center of the map, while powerups and weapons attract players to the far side. It supports all gamemodes except Race. Team play is possible, but a short flag rush distance makes CTF particularly chaotic.
+> *Blamite Mines is a small covenant-themed map, split down the middle with a blamite quarry on one side and a refinery on the other. Most action takes place around the large pit in the center of the map, while powerups and weapons attract players to the far side. It supports all gamemodes except Race. Team play is possible, but a short flag rush distance makes CTF particularly chaotic.*
 
 <br/>
 
