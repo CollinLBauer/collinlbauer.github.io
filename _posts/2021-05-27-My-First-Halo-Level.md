@@ -5,6 +5,8 @@ date: 2021-05-27
 category: "portfolio"
 prev_url: "/portfolio/2021/04/19/The-Halo-Game-Engine.html"
 prev_title: "The Halo Game Engine"
+next_url: /portfolio/2021/07/17/Map-Preview.html
+next_title: "Contest Map Preview"
 ---
 
 
