@@ -158,6 +158,6 @@ div.post img {
 
 /* other CSS here */
 #headshot {
-    float: right;
+    float: left;
     width: 25%
 }
