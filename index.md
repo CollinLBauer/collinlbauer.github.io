@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: main
 title: Collin Bauer, B.S. Computer Science
 ---
 

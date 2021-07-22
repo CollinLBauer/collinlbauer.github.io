@@ -154,3 +154,10 @@ div.post img {
     width: 50%;
     text-align: right;
 }
+/* end post CSS */
+
+/* other CSS here */
+#headshot {
+    float: left;
+    width: 25%
+}
