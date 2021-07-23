@@ -162,10 +162,8 @@ div.post img {
     height: 100%;
     padding: 1rem;
 }
-div.main {
-    border-top: 1px solid #b6aa9c;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    display:flex
+.flex {
+    display: flex
 }
 #about-container {
     align-self: center;
