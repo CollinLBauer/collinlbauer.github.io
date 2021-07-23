@@ -157,7 +157,16 @@ div.post img {
 /* end post CSS */
 
 /* other CSS here */
-#headshot {
-    float: left;
-    width: 25%
+#about-headshot {
+    width: 40%;
+    height: 100%;
+    padding: 1rem;
+}
+div.main {
+    border-top: 1px solid #b6aa9c;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    display:flex
+}
+#about-container {
+    align-self: center;
 }
