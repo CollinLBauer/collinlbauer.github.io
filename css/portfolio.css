@@ -19,9 +19,9 @@
 }
 
 #pf_images {
-    background-color: #eedecc;
+    background-color: #f5ece2;
     border: 1px solid #b6aa9c;
-    min-height: 400px;
+    height: 45vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,7 +41,7 @@
 }
 
 #pf_image_display {
-    height: fit-content;
+    max-height: -webkit-fill-available;
     z-index: 0;
 }
 
@@ -56,6 +56,7 @@
 }
 
 #img_desc {
+    height: 1em;
     text-align: center;
     font-style: italic;
 }
