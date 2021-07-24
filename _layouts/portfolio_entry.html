@@ -7,10 +7,16 @@ layout: default
 <link rel="stylesheet" type="text/css" href="/css/portfolio.css">
 
 <div id="pf_image_array">{"images":[
-    {% for image in page.images %}
-    "{{ image }}"{% if forloop.index < page.images.size %},{% endif %}
+    {% for img in page.images %}
+    "{{ img }}"{% if forloop.index < page.images.size %},{% endif %}
     {% endfor %}
   ]}
+</div>
+<div id="pf_image_desc_array">{"image_desc":[
+  {% for desc in page.image_desc %}
+  "{{ desc }}"{% if forloop.index < page.image_desc.size %},{% endif %}
+  {% endfor %}
+]}
 </div>
 
 <h1>{{ page.title }}</h1>
@@ -29,7 +35,7 @@ layout: default
       <img id="img_left" src="/images/icons/ch_left.png">
       <img id="img_right" src="/images/icons/ch_right.png">
       <img id="pf_image_display" src="">
-      <div id="indicator"></div>
+      <div id="img_desc"></div>
     </div>
 
   </div>

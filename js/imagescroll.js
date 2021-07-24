@@ -1,57 +1,71 @@
-var names = [];
-var current = 0;
+var images = [];
+var descripts = [];
+var curr = 0;
 
-var imageContainer;
-var indicator;
+var image_container;
+var img_desc_container;
 var left;
 var right;
 
-
-function getImageNames() {
+// load image list from a JSON hidden in document
+function getImages() {
     let imageList = JSON.parse(document.getElementById("pf_image_array").innerText);
-    imageList.images.forEach(imageName => {
-        console.log(imageName) //debug
-        names.push(imageName);
+    imageList.images.forEach(item => {
+        console.log(item) //debug
+        images.push(item);
     });
-    indicator.textContent = current;
-    
 }
 
-function rightScroll() {
-    console.log("Right!")
-    current++;
-
-    if (current >= names.length) {
-        current = 0;
-    }
-    indicator.textContent = names[current];
-    imageContainer.setAttribute('src',names[current])
+// load description list from a JSON hidden in document
+function getImageDescriptions() {
+    let descList = JSON.parse(document.getElementById("pf_image_desc_array").innerText);
+    descList.image_desc.forEach(item => {
+        console.log(item) //debug
+        descripts.push(item);
+    });
 }
 
+// cycles image left on user click
 function leftScroll() {
     console.log("Left!")
-    current--;
+    curr--;
 
-    if (current == -1) {
-        current = names.length-1;
+    if (curr == -1) {
+        curr = images.length-1;
     }
-    indicator.textContent = names[current];
-    imageContainer.setAttribute('src',names[current])
+    img_desc_container.textContent = images[curr];
+    image_container.setAttribute('src',names[curr])
 }
 
-function init() {
+// cycles image right on user click
+function rightScroll() {
+    console.log("Right!")
+    curr++;
 
-    imageContainer = document.querySelector("#pf_image_display");
-    indicator = document.querySelector("#indicator");
+    if (curr >= images.length) {
+        curr = 0;
+    }
+    img_desc_container.textContent = images[curr];
+    image_container.setAttribute('src',names[curr])
+}
+
+// initializes variables from document and sets initial states
+function init() {
+    // get document elements
+    image_container = document.querySelector("#pf_image_display");
+    img_desc_container = document.querySelector("#img_desc");
     left = document.querySelector("#img_left");
     right = document.querySelector("#img_right");
     left.addEventListener("click", leftScroll);
     right.addEventListener("click", rightScroll);
 
-    getImageNames();
+    // get arrays
+    getImages();
+    getImageDescriptions();
 
-    indicator.textContent = names[current];
-    imageContainer.setAttribute('src',names[current])
+    // set states
+    img_desc_container.textContent = descripts[curr];
+    image_container.setAttribute('src',names[curr])
 }
 
 window.onload = init;

@@ -18,25 +18,29 @@
 }
 
 #img_left {
-    background-color: #ffffff3f;
-    width: 64px;
-    height: 64px;
     position: absolute;
     z-index: 1;
     left: 0;
-    top: 40%
+    top: 30%
 }
 
 #img_right {
-    background-color: #ffffff3f;
-    width: 64px;
-    height: 64px;
     position: absolute;
     z-index: 1;
     right: 0;
-    top: 40%
+    top: 30%
 }
 
 #pf_image_display {
     z-index: 0;
+}
+
+.img_chevron {
+    background-color: #ffffff3f;
+    width: 64px;
+    height: 128px;
+}
+
+.img_chevron:hover {
+    background-color: #ffffff8f;
 }
