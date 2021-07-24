@@ -25,6 +25,7 @@ function getImageDescriptions() {
     });
 }
 
+
 // cycles image left on user click
 function leftScroll() {
     console.log("Left!")
@@ -33,8 +34,8 @@ function leftScroll() {
     if (curr == -1) {
         curr = images.length-1;
     }
-    img_desc_container.textContent = images[curr];
-    image_container.setAttribute('src',names[curr])
+
+    refreshImageState();
 }
 
 // cycles image right on user click
@@ -45,9 +46,17 @@ function rightScroll() {
     if (curr >= images.length) {
         curr = 0;
     }
-    img_desc_container.textContent = images[curr];
-    image_container.setAttribute('src',names[curr])
+
+    refreshImageState();
 }
+
+
+// does what it says on the box
+function refreshImageState() {
+    img_desc_container.textContent = descripts[curr];
+    image_container.setAttribute('src',images[curr]);
+}
+
 
 // initializes variables from document and sets initial states
 function init() {
@@ -64,8 +73,7 @@ function init() {
     getImageDescriptions();
 
     // set states
-    img_desc_container.textContent = descripts[curr];
-    image_container.setAttribute('src',names[curr])
+    refreshImageState();
 }
 
 window.onload = init;
