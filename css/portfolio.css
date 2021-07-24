@@ -14,9 +14,14 @@
     border-bottom: 1px solid #b6aa9c;
 }
 
-#pf_images {
-    min-height: 400px;
+#pf_image_box {
     width: 60%;
+}
+
+#pf_images {
+    background-color: #eedecc;
+    border: 1px solid #b6aa9c;
+    min-height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,6 +62,7 @@
 
 #pf_links {
     border-top: 1px solid #b6aa9c;
+    margin-top: 1em;
     text-align: center;
 
 }
