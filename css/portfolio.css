@@ -1,0 +1,26 @@
+#pf_head {
+    text-align: center;
+}
+
+#pf_body {
+    border-top: 1px solid #b6aa9c;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+#pf_images {
+    height: 400px;
+    width: 50%
+}
+
+#pf_image_array {
+    display: none
+}
+
+#img_left {
+    float: left;
+    align-self: center
+}
+#img_right {
+    float: right;
+    align-self: center
+}
