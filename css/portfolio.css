@@ -17,6 +17,9 @@
 #pf_images {
     min-height: 400px;
     width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative
 }
 
@@ -24,17 +27,16 @@
     position: absolute;
     z-index: 1;
     left: 0;
-    top: 30%
 }
 
 #img_right {
     position: absolute;
     z-index: 1;
     right: 0;
-    top: 30%
 }
 
 #pf_image_display {
+    height: fit-content;
     z-index: 0;
 }
 
