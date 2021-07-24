@@ -15,7 +15,6 @@ body {
 }
 
 #nav {          /* navigation bar at the top of the page */
-    position: relative;
     width: 100%;
     border-bottom: 1px solid #b6aa9c;
     padding: 10px 2%;

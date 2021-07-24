@@ -30,7 +30,7 @@ layout: default
     {{ content }}
   </div>
 
-  <div class="flex">
+  <div class="flex" id="pf_preview">
     <div id="pf_images">
       <img id="img_left" class="img_chevron" src="/images/icons/ch_left.png">
       <img id="img_right" class="img_chevron" src="/images/icons/ch_right.png">
@@ -38,6 +38,25 @@ layout: default
       <div id="img_desc"></div>
     </div>
 
+  </div>
+
+  
+  <div id="pf_credits">
+    {% if page.technologies %}
+    <h2>Technologies used...</h2>
+    <ul>
+      {% for tech in page.technologies %}
+      <li>{{ tech }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+  <div id="pf_links">
+    <ul class="nav-list">
+      <li class="nav-item"><a href="/">Home</a></li>
+       <li class="nav-item"><a href="/about">About</a></li>
+       <li class="nav-item"><a href="/blog">Blog</a></li>
+     </ul>
   </div>
   
   <br/>

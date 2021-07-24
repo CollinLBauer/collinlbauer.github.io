@@ -1,10 +1,17 @@
 #pf_head {
     text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 1em;
 }
 
 #pf_body {
     border-top: 1px solid #b6aa9c;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+#pf_preview {
+    margin: 16px 0px 16px 0px;
+    border-top: 1px solid #b6aa9c;
+    border-bottom: 1px solid #b6aa9c;
 }
 
 #pf_images {
@@ -39,4 +46,9 @@
 
 .img_chevron:hover {
     background-color: #ffffff8f;
+}
+
+#img_desc {
+    text-align: center;
+    font-style: italic;
 }
