@@ -2,8 +2,8 @@ var names = [];
 
 let imageContainer = document.querySelector("#screenShotGallery img");
 let indicator = document.querySelector("#indicator");
-let left = document.querySelector("#left");
-let right = document.querySelector("#right");
+let left = document.querySelector("#img_left");
+let right = document.querySelector("#img_right");
 let current = 0;
 
 function getImageNames() {
@@ -12,6 +12,7 @@ function getImageNames() {
         console.log(imageName)
         names.push(imageName);
     });
+    indicator.textContent = current;
     
 }
 
