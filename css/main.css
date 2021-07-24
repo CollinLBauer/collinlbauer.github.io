@@ -28,7 +28,7 @@ body {
     padding-bottom: 80px; /* height of footer */
 }
 
-#footer {       /* footer at the borrom of the page */
+#footer {       /* footer at the bottom of the page */
     position: absolute;
     bottom: 0;
     width: 100%;
