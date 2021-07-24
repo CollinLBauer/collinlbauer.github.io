@@ -7,10 +7,6 @@
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-#pf_image_array {
-    display: none
-}
-
 #pf_images {
     min-height: 400px;
     width: 60%;

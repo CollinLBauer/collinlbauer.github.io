@@ -6,13 +6,13 @@ layout: default
 <script type="text/javascript" src="/js/imagescroll.js"></script>
 <link rel="stylesheet" type="text/css" href="/css/portfolio.css">
 
-<div id="pf_image_array">{"images":[
+<div id="pf_image_array" class="hidden">{"images":[
     {% for img in page.images %}
     "{{ img }}"{% if forloop.index < page.images.size %},{% endif %}
     {% endfor %}
   ]}
 </div>
-<div id="pf_image_desc_array">{"image_desc":[
+<div id="pf_image_desc_array" class="hidden">{"image_desc":[
   {% for desc in page.image_desc %}
   "{{ desc }}"{% if forloop.index < page.image_desc.size %},{% endif %}
   {% endfor %}
