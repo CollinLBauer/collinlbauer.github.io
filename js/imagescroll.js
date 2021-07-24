@@ -1,10 +1,11 @@
 var names = [];
+var current = 0;
 
-let imageContainer = document.querySelector("#screenShotGallery img");
-let indicator = document.querySelector("#indicator");
-let left = document.querySelector("#img_left");
-let right = document.querySelector("#img_right");
-let current = 0;
+var imageContainer;
+var indicator;
+var left;
+var right;
+
 
 function getImageNames() {
     let imageList = JSON.parse(document.getElementById("pf_image_array").innerText);
@@ -34,6 +35,16 @@ function leftScroll() {
   indicator.textContent = current;
 }
 
-window.onload = getImageNames;
-left.addEventListener("click", leftScroll);
-right.addEventListener("click", rightScroll);
+function init() {
+
+    imageContainer = document.querySelector("#screenShotGallery img");
+    indicator = document.querySelector("#indicator");
+    left = document.querySelector("#img_left");
+    right = document.querySelector("#img_right");
+    left.addEventListener("click", leftScroll);
+    right.addEventListener("click", rightScroll);
+
+    getImageNames();
+}
+
+window.onload = init;
