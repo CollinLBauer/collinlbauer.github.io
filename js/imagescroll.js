@@ -21,24 +21,27 @@ function rightScroll() {
     console.log("Right!")
     current++;
 
-    if (current > names.length) {
-        current = 1;
+    if (current >= names.length) {
+        current = 0;
     }
-    indicator.textContent = current;
+    indicator.textContent = names[current];
+    imageContainer.setAttribute('src',names[current])
 }
 
 function leftScroll() {
+    console.log("Left!")
     current--;
 
-    if (current === 0) {
-        current = names.length;
+    if (current == -1) {
+        current = names.length-1;
     }
-    indicator.textContent = current;
+    indicator.textContent = names[current];
+    imageContainer.setAttribute('src',names[current])
 }
 
 function init() {
 
-    imageContainer = document.querySelector("#screenShotGallery img");
+    imageContainer = document.querySelector("#pf_image_display");
     indicator = document.querySelector("#indicator");
     left = document.querySelector("#img_left");
     right = document.querySelector("#img_right");
