@@ -49,6 +49,9 @@ function init() {
     right.addEventListener("click", rightScroll);
 
     getImageNames();
+
+    indicator.textContent = names[current];
+    imageContainer.setAttribute('src',names[current])
 }
 
 window.onload = init;
