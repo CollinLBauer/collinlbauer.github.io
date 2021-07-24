@@ -7,24 +7,36 @@
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-#pf_images {
-    min-height: 400px;
-    width: 60%
-}
-
 #pf_image_array {
     display: none
 }
 
-#img_left {
-    width: 64px;
-    height: 64px;
-    float: left;
-    align-self: center
+#pf_images {
+    min-height: 400px;
+    width: 60%;
+    position: relative
 }
-#img_right {
+
+#img_left {
+    background-color: #ffffff3f;
     width: 64px;
     height: 64px;
-    float: right;
-    align-self: center
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 40%
+}
+
+#img_right {
+    background-color: #ffffff3f;
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 40%
+}
+
+#pf_image_display {
+    z-index: 0;
 }
