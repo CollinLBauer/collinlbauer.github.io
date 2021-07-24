@@ -10,7 +10,7 @@ var right;
 function getImageNames() {
     let imageList = JSON.parse(document.getElementById("pf_image_array").innerText);
     imageList.images.forEach(imageName => {
-        console.log(imageName)
+        console.log(imageName) //debug
         names.push(imageName);
     });
     indicator.textContent = current;
@@ -18,21 +18,22 @@ function getImageNames() {
 }
 
 function rightScroll() {
-  current++;
+    console.log("Right!")
+    current++;
 
-  if (current > names.length) {
-    current = 1;
-  }
-  indicator.textContent = current;
+    if (current > names.length) {
+        current = 1;
+    }
+    indicator.textContent = current;
 }
 
 function leftScroll() {
-  current--;
+    current--;
 
-  if (current === 0) {
-    current = names.length;
-  }
-  indicator.textContent = current;
+    if (current === 0) {
+        current = names.length;
+    }
+    indicator.textContent = current;
 }
 
 function init() {

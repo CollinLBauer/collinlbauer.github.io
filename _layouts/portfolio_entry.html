@@ -8,7 +8,7 @@ layout: default
 
 <div id="pf_image_array">{"images":[
     {% for image in page.images %}
-    "{{ image }}",
+    "{{ image }}"{% if forloop.index < page.images.size %},{% endif %}
     {% endfor %}
   ]}
 </div>
