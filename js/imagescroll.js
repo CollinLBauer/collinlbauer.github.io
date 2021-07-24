@@ -34,6 +34,6 @@ function leftScroll() {
   indicator.textContent = current;
 }
 
-window.onload = getNames;
+window.onload = getImageNames;
 left.addEventListener("click", leftScroll);
 right.addEventListener("click", rightScroll);
