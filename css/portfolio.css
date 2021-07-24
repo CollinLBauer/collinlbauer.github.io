@@ -8,8 +8,8 @@
 }
 
 #pf_images {
-    height: 400px;
-    width: 600px
+    min-height: 400px;
+    width: 60%
 }
 
 #pf_image_array {
