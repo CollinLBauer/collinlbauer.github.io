@@ -2,67 +2,68 @@
 layout: default
 ---
 
-
 <script type="text/javascript" src="/js/imagescroll.js"></script>
 <link rel="stylesheet" type="text/css" href="/css/portfolio.css">
 
 <div id="pf_image_array" class="hidden">{"images":[
-    {% for img in page.images %}
-    "{{ img }}"{% if forloop.index < page.images.size %},{% endif %}
-    {% endfor %}
-  ]}
-</div>
-<div id="pf_image_desc_array" class="hidden">{"image_desc":[
-  {% for desc in page.image_desc %}
-  "{{ desc }}"{% if forloop.index < page.image_desc.size %},{% endif %}
+  {% for img in page.images %}
+  "{{ img }}"{% if forloop.index < page.images.size %},{% endif %}
   {% endfor %}
 ]}
 </div>
-
-<h1>{{ page.title }}</h1>
-
-<div class="post flex_vert">
-  <br/>
-  <div id="pf_head">
-    (head goes here)
-  </div>
-  <div id="pf_body">
-    {{ content }}
-  </div>
-
-  <div class="flex" id="pf_preview">
-    <div id="pf_image_box">
-      <div id="pf_images">
-        <img id="img_left" class="img_chevron" src="/images/icons/ch_left.png">
-        <img id="img_right" class="img_chevron" src="/images/icons/ch_right.png">
-        <img id="pf_image_display" src="">
-      </div>
-      <div id="img_desc"></div>
-    </div>
-
-  </div>
-
-
-  <div id="pf_credits">
-    {% if page.technologies %}
-    <h3>Technologies used...</h3>
-    <ul>
-      {% for tech in page.technologies %}
-      <li>{{ tech }}</li>
-      {% endfor %}
-    </ul>
-    {% endif %}
-  </div>
-  <div id="pf_links">
-    <ul class="list_hz">
-      <li class="nav-item"><a href="/">Home</a></li>
-       <li class="nav-item"><a href="/about">About</a></li>
-       <li class="nav-item"><a href="/blog">Blog</a></li>
-     </ul>
-  </div>
-  
-  <br/>
-
-
-
+<div id="pf_image_desc_array" class="hidden">{"image_desc":[
+{% for desc in page.image_desc %}
+"{{ desc }}"{% if forloop.index < page.image_desc.size %},{% endif %}
+{% endfor %}
+]}
 </div>
+
+
+<div id="content">
+  
+  <h1>{{ page.title }}</h1>
+  
+  <div class="post flex_vert">
+    <br/>
+    <div id="pf_head">
+      (head goes here)
+    </div>
+    <div id="pf_body">
+      {{ content }}
+    </div>
+  
+    <div class="flex" id="pf_preview">
+      <div id="pf_image_box">
+        <div id="pf_images">
+          <img id="img_left" class="img_chevron" src="/images/icons/ch_left.png">
+          <img id="img_right" class="img_chevron" src="/images/icons/ch_right.png">
+          <img id="pf_image_display" src="">
+        </div>
+        <div id="img_desc"></div>
+      </div>
+    </div><!--/preview-->
+  
+  
+    <div id="pf_credits">
+      {% if page.technologies %}
+      <h3>Technologies used...</h3>
+      <ul>
+        {% for tech in page.technologies %}
+        <li>{{ tech }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div><!--/credits-->
+
+    <div id="pf_links">
+      <ul class="list_hz">
+        <li class="nav-item"><a href="/">Home</a></li>
+         <li class="nav-item"><a href="/about">About</a></li>
+         <li class="nav-item"><a href="/blog">Blog</a></li>
+       </ul>
+    </div><!--/links-->
+    
+    <br/>
+  </div>
+
+</div><!--/content-->

@@ -1,3 +1,4 @@
+
 #pf_head {
     text-align: center;
     font-size: 1.2em;
@@ -15,13 +16,13 @@
 }
 
 #pf_image_box {
-    width: 60%;
+    width: 40vw;
 }
 
 #pf_images {
     background-color: #f5ece2;
     border: 1px solid #b6aa9c;
-    height: 45vh;
+    height: 22.5vw;
     display: flex;
     align-items: center;
     justify-content: center;
