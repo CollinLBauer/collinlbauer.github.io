@@ -25,6 +25,7 @@ body {
     margin: 0px auto;
     width: 70%;
     position: relative;
+    padding: 20px 20px 80px 20px;
     padding-bottom: 80px; /* height of footer */
 }
 
@@ -83,6 +84,7 @@ div.post {
 
 div.post h1 {
     font-size: 3rem;
+    margin-block-start: 0px;
 }
 
 div.post h2 {
@@ -145,6 +147,7 @@ div.post img {
 #prev_next {
     width: 100%;
     padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.2rem;
 }
 #pn_prev {
     width: 50%;

@@ -42,4 +42,5 @@ function onStart() {
     }
 }
 
+// sets onStart() to run when the window is fully loaded
 window.onload = onStart;
